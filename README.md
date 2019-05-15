@@ -44,7 +44,7 @@ python3 demo.py --indir ${img_directory} --outdir examples/res
 ```
 - **Video**:  Run AlphaPose for a video and save the rendered video with:
 ```
-python3 video_demo.py --video ${path to video} --outdir examples/res --save_video
+python3 video_demo.py --video ${path to video} --outdir examples/res --save_video [--sp]
 ```
 - **Webcam**:  Run AlphaPose using webcam and visualize the results with:
 ```
